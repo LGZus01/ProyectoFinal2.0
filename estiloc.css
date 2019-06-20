@@ -1,0 +1,175 @@
+*{
+	font-family: Century Gothic;
+}
+html{
+	background-color: #a6a6a6;
+}
+#cabeza{
+	background-color: #333;
+	text-align: center;
+	color: white;
+}
+#cabeza h2{
+	margin: 0;
+	padding: 10px 10px;
+
+}
+#logo{
+	float: left;
+  	width:130px;
+  	height:93px;
+}
+#link {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+#cabeza li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #333;
+}
+
+#imagmisi{
+	width: 130px;
+	height: 90px;
+	margin-left: 50px;
+}
+#imagvisi{
+	width: 200px;
+	height: 120px;
+	float: right;
+	margin-right: 50px;
+}
+#sermonxd{
+	width: 900px;
+	height: 110px;
+	margin-left: 200px;
+	background-color: white;
+	border: black 5px solid;
+  	border-radius: 20px;
+  	padding-left: 10px;
+  	padding-right: 10px;
+  	padding-top: 10px;
+  	padding-bottom: 0px;
+}
+#titumision{
+	margin-left: 200px;
+	margin-top: -90px;
+}
+#textmision{
+	background-color: white;
+	margin-left: 200px;
+	border: black 5px solid;
+  	border-radius: 20px;
+  	width: 600px;
+  	padding-left: 10px;
+  	padding-right: 10px;
+  	padding-top: 5px;
+  	padding-bottom: 5px;
+}
+#tituvision{
+	float: right;
+}
+#textvision{
+	background-color: white;
+	float: right;
+	border: black 5px solid;
+  	border-radius: 20px;
+  	width: 600px;
+  	margin-right: -60px;
+  	padding-left: 10px;
+  	padding-right: 10px;
+  	padding-top: 5px;
+  	padding-bottom: 5px;
+}
+#text1{
+	background-color: white;
+	border: black 5px solid;
+  	border-radius: 20px;
+  	width: 800px;
+  	padding-left: 10px;
+  	padding-right: 10px;
+  	padding-top: 5px;
+  	padding-bottom: 5px;
+  	margin-left: 250px; 	
+}
+
+
+.slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+#imagenesrota{
+	margin-left: 220px;
+}
+
+#imagplayera1{
+	width: 900px;
+	height: 400px;
+}
+#imagplayera2{
+	width: 900px;
+	height: 400px;
+}
+#imagplayera3{
+	width: 900px;
+	height: 400px;
+}
+#imagplayera4{
+	width: 900px;
+	height: 400px;
+}
+#footer {
+		padding: 0.5rem 0 1rem 0 ;
+		background: #000;
+		text-align: center;
+	}
+#footer .copyright {
+	color: #bbb;
+	padding: 0;
+	text-align: center;
+	font-size: 0.9rem;
+}
